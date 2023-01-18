@@ -1,0 +1,116 @@
+/* reset */
+/* da li je greska resetovati font size
+ pa ga menjati kasnije u zavisnosti 
+ od potrebe */
+* {
+    box-sizing: border-box;
+}
+
+html, body, h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+img {
+    width: 100%;
+    max-width: 100%;
+    display: block;
+    /* margin-left: auto;
+    margin-right: auto; */
+}
+
+h1, .h1 {
+    font-size: 34px;
+}
+
+h2, .h2 {
+    font-size: 30px;
+}
+
+h3, .h3 {
+    font-size: 26px;
+}
+
+h4, .h4 {
+    font-size: 24px;
+}
+
+h5, .h5 {
+    font-size: 22px;
+}
+
+h6, .h6 {
+    font-size: 20px;
+}
+
+p {
+    font-size: 16px;
+}
+
+/* poravnanje */
+.main {
+    max-width: 100%;
+    width: 65%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* header parametri */
+.header,
+.footer {
+    font-weight: 700;
+    text-align: center;
+    padding: 64px 460px 45px;
+    background-color:rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}
+
+.header h3,
+.footer h3 {
+    font-size: 18px;
+    text-transform: uppercase;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+.header h4,
+h4.subtitle,
+.footer h4 {
+    font-size: 14px;
+    font-weight: 400;
+    font-style: italic;
+    margin-bottom: 12px;
+}
+
+/* container parametri */
+.container h2 {
+    font-size: 26px;
+    font-weight: 700;
+    margin-top: 52px;
+    color: rgb(161, 96, 64);
+}
+
+h2.black-heading {
+    color: rgb(0, 0, 0);
+}
+
+h4.subtitle {
+    margin-top: 2px;
+}
+
+.container p {
+    text-align: justify;
+    margin-top: 30px;
+    margin-bottom: 34px;
+}
+
+p.large-margin {
+    margin-top: 45px;
+    margin-bottom: 56px;
+}
+
+img {
+    margin-top: 42px;
+}
+
